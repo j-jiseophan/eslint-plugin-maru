@@ -1,4 +1,5 @@
-# `eslint-plugin-maru`
+# eslint-plugin-maru
+[![npm version](https://badge.fury.io/js/eslint-plugin-maru.svg)](https://badge.fury.io/js/eslint-plugin-maru)
 
 This plugin helps you to pass correct dependency list to effective hooks of [Maru.js](https://github.com/jshan2017/maru-js).
 
@@ -20,7 +21,7 @@ yarn add -D eslint-plugin-maru
 
 In eslint config file, set as below
 
-```json
+```js
 {
   // ...
   "plugins": ["maru", ...],
